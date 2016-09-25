@@ -1,3 +1,6 @@
+/**
+ * Write a program that accepts two numbers from the Command Line and prints them out. Then use a for loop to print the next 13 numbers in the sequence where each number is the sum of the previous two
+ */
 package mobileapplicationlicthomepractice.CoreJavaDay1Assignment;
 
 import java.util.Scanner;
@@ -7,6 +10,8 @@ import java.util.Scanner;
  * @author Md.Asiful
  * @serial 1.2
  * @since 2016 September 24
+ * @author asm-linksys.com
+ * 
  */
 public class TaskTwo {
 
@@ -64,11 +69,11 @@ public class TaskTwo {
              * This section for making secondNumber become firstNumber and sum
              * of two number (Sum=firstNumber+secondNumber) will be secondNumber
              * For example: user input is 1 and 3 then next number will be 1+3=4
-             * printing sequence will be like this 1 3 4 
-             * what will be next sequence 1 3 4 7 which is sum of 3+4=7
-             * for 1 3 4 7 sequence firstNumber=secondNumber will make firstNumber=3
-             * in next line secondNumber=4 // which is a sum of two previous no
-             * 
+             * printing sequence will be like this 1 3 4 what will be next
+             * sequence 1 3 4 7 which is sum of 3+4=7 for 1 3 4 7 sequence
+             * firstNumber=secondNumber will make firstNumber=3 in next line
+             * secondNumber=4 // which is a sum of two previous no
+             *
              */
 
             firstNumber = secondNumber;
