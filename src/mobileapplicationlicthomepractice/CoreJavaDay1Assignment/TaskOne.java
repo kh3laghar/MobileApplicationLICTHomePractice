@@ -45,6 +45,7 @@ public class TaskOne {
             reverse = reverse + inputArray.charAt(i);
 
         }
+        System.out.println(reverse);
         if (inputArray.equals(reverse)) {
             System.out.println("This is a Palingdrome ");
 
